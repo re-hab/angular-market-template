@@ -1,0 +1,16 @@
+<section class="container-fluid p-0">
+   <ngx-slick-carousel class="carousel" 
+                        #slickModal="slick-carousel" 
+                        [config]="slideConfig" 
+    >
+        <div ngxSlickItem *ngFor="let slide of slides; let i = index" class="slide">
+            <img src="{{ slide.img }}"  class="w-100" onError="this.src='assets/images/market_1.jpg'">
+            
+            <button mat-flat-button class="btn-shop" >
+                Shop Now
+            </button>
+        </div>
+
+
+    </ngx-slick-carousel>
+</section>

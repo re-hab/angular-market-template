@@ -24,7 +24,9 @@
     "@fortawesome/angular-fontawesome": "^0.8.1",
     "bootstrap": "^4.5.3",
     "jquery": "^3.5.1",
+    "ngx-slick-carousel": "^0.5.1",
     "rxjs": "~6.6.0",
+    "slick-carousel": "^1.8.1",
     "tslib": "^2.0.0",
     "zone.js": "~0.10.2"
   },

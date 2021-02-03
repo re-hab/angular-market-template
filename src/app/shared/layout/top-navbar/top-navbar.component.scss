@@ -56,10 +56,11 @@
 }
 
 ::ng-deep .mat-menu-panel {
-    min-width: 206px !important;
+    min-width: 10rem !important;
+    max-width: 13rem !important;
     max-height: fit-content !important;
     position: absolute;
-    left: -8%;
+    left: -4%;
     padding: .7rem 0rem;
     //transform: translate3d(-50%, 0, 0) !important;
 }
@@ -229,6 +230,6 @@
 }
 
 ::ng-deep .mat-menu-panel {
-    left: -35% !important;
+    left: -20% !important;
 }
 }

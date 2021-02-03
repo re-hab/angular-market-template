@@ -1,0 +1,67 @@
+img {
+    height: 25rem;
+    object-fit: cover;
+  }
+
+  
+  .btn-shop {
+    display: none;
+    position: absolute;
+    top: 83%;
+     left: 110.5vw;
+    right: 0;
+    z-index: 2;
+    // font-size: 16px;
+    cursor: pointer;
+  }
+
+  .slide:focus {
+    outline: none;
+    border: 0;
+ }
+
+  ::ng-deep .mat-flat-button {
+    background-color: #d60812;
+    color: var(--white);
+  }
+  ::ng-deep .slick-dots {
+    bottom: 1.5rem;
+  }
+
+ ::ng-deep .slick-dots li button { 
+    background-color: transparent;
+    border: 2px solid var(--white);
+    border-radius: 50%;
+  }
+
+
+  ::ng-deep .slick-dots li button:before {
+    color: transparent;
+    content: "";
+  }
+
+  ::ng-deep .slick-dots li.slick-active button {
+    background-color: var(--white);
+ }
+
+  ::ng-deep .slick-dots li.slick-active button:before {
+    color: var(--white);
+    font-size: 1.3rem;
+    opacity: 1;
+  }
+
+  @media only screen and (max-width: 768px) {
+    img {
+      height: 12rem;
+    }
+
+    ::ng-deep .slick-dots {
+      bottom: 1rem;
+    }
+
+    ::ng-deep .slick-dots li button {
+      height: 14px;
+      width: 14px;
+     }
+  
+  } 

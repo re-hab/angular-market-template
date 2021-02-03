@@ -3,10 +3,8 @@ import { CommonModule } from '@angular/common';
 import { MaterialModule } from './material/material.module';
 import { NavbarComponent } from './layout/navbar/navbar.component';
 import { TopNavbarComponent } from './layout/top-navbar/top-navbar.component';
-import {FormsModule, ReactiveFormsModule} from '@angular/forms';
+import { FormsModule, ReactiveFormsModule} from '@angular/forms';
 import { SideMenuComponent } from './layout/side-menu/side-menu.component';
-
-
 
 @NgModule({
   declarations: [
@@ -17,7 +15,7 @@ import { SideMenuComponent } from './layout/side-menu/side-menu.component';
   imports: [
     CommonModule,
     MaterialModule,
-    FormsModule
+    FormsModule,
   ],
   exports: [
     MaterialModule,
