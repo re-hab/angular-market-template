@@ -1,6 +1,14 @@
-<div class="container">
+<div class="container mb-5">
+    <h1>
+        Best offers this month
+    </h1>
     <div class="grid">
 
+        <a routerLink="/" *ngFor="let category of categories">
+        <div class="category" >
+            <img [src]="category.img">
+            <p> {{category.description}} </p>
+        </div>
+    </a>
     </div>
-
 </div>
